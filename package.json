@@ -1,0 +1,45 @@
+{
+  "name": "micro-frontend-framework",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "基于 iframe + postMessage 的轻量级微前端框架，完全避免跨域问题",
+  "main": "main/src/micro-frontend.js",
+  "scripts": {
+    "start:all": "node start-all.js",
+    "dev:main": "cd main && npm run dev",
+    "build:main": "cd main && npm run build",
+    "start:react": "cd react-app && npm start",
+    "start:vue": "cd vue-app && npm start",
+    "install:all": "cd main && npm install && cd ../react-app && npm install && cd ../vue-app && npm install",
+    "clean": "rm -rf */node_modules */dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/micro-frontend-framework.git"
+  },
+  "keywords": [
+    "micro-frontend",
+    "microfrontend",
+    "iframe",
+    "postMessage",
+    "vue",
+    "react",
+    "javascript",
+    "frontend",
+    "architecture",
+    "modular",
+    "spa",
+    "cross-domain"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/your-username/micro-frontend-framework/issues"
+  },
+  "homepage": "https://github.com/your-username/micro-frontend-framework#readme",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
