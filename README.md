@@ -5,8 +5,8 @@
 [![Vue.js](https://img.shields.io/badge/vue-3.x-green.svg)](https://vuejs.org/)
 [![React](https://img.shields.io/badge/react-18.x-blue.svg)](https://reactjs.org/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![GitHub issues](https://img.shields.io/github/issues/your-username/micro-frontend-framework.svg)](https://github.com/your-username/micro-frontend-framework/issues)
-[![GitHub stars](https://img.shields.io/github/stars/your-username/micro-frontend-framework.svg)](https://github.com/your-username/micro-frontend-framework/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/wangyiyi2056/qiankun_demo.svg)](https://github.com/wangyiyi2056/qiankun_demo/issues)
+[![GitHub stars](https://img.shields.io/github/stars/wangyiyi2056/qiankun_demo.svg)](https://github.com/wangyiyi2056/qiankun_demo/stargazers)
 
 基于 iframe + postMessage 的微前端解决方案，完全避免跨域问题。
 
@@ -21,7 +21,7 @@
 
 我们的方案通过 iframe 天然隔离的特性，彻底解决了这些问题，让微前端变得简单可靠。
 
-[![点击播放视频](docs/video.png)](docs/xw_20250808173637.mp4)
+![演示动画](docs/xw_20250808173637.gif)
 
 ## 🚀 快速开始
 
@@ -34,8 +34,8 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/your-username/micro-frontend-framework.git
-cd micro-frontend-framework
+git clone https://github.com/wangyiyi2056/qiankun_demo.git
+cd qiankun_demo
 
 # 安装所有依赖
 npm run install:all
